@@ -1,0 +1,22 @@
+{
+	"delivery": ["x", "y", "{DELIVERY}", "16px", "Arial", "bold"],
+	"text1": ["x", "y", "Data uboju: ", "16px", "Arial", "bold"],
+	"slaughter": ["x", "y", "{TDUB}", "16px", "Arial", "bold"],
+	"text2": ["x", "y", "Data uboju: ", "16px", "Arial", "bold"],
+	"ggnfarm": ["x", "y", "GGN: ", "16px", "Arial", "bold"],
+	"text3": ["x", "y", "Traceability: ", "16px", "Arial", "bold"],
+	"traceability": ["x", "y", "{TATC}", "16px", "Arial", "bold"],
+	"text4": ["x", "y", "MHD: ", "16px", "Arial", "bold"],
+	"mhd": ["x", "y", "{TMHD}", "16px", "Arial", "bold"],
+	"text5": ["x", "y", "Lot: ", "16px", "Arial", "bold"],
+	"lot": ["x", "y", "{TLOT}", "16px", "Arial", "bold"],
+	"index": ["x", "y", "{TIND}", "16px", "Arial", "bold"],
+	"text6": ["x", "y", "Data produkcji: ", "16px", "Arial", "bold"],
+	"production": ["x", "y", "{TDPR}", "16px", "Arial", "bold"],
+	"qr": ["{STX}M{INDEKS}{EXT}
+			{STX}UTMHD{SEP}{TMHD}{ETX}
+			{STX}UTLOT{SEP}{TLOT}{ETX}
+			{STX}UTATC{SEP}{TATC}{ETX}
+			{STX}UTDUB{SEP}{TDUB}{ETX}
+			{STX}UTGGN{SEP}{TGGN}{ETX}", "0", "0"]
+}
